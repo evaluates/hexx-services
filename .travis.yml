@@ -1,0 +1,16 @@
+---
+language:     ruby
+sudo:         false
+bundler_args: --without metrics
+cache:        bundler
+script:       rake test:coverage:run
+rvm:
+  - '2.1'
+  - '2.2'
+  - ruby-head
+  - rbx-2 --2.0
+  - jruby-head-21mode
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+    - rvm: jruby-head-21mode
