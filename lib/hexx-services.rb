@@ -12,6 +12,8 @@ module Hexx
   #
   module Services
 
+    require_relative "hexx-services/patches.rb"
+
   end # module Services
 
 end # module Hexx
