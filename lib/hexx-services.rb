@@ -16,6 +16,7 @@ module Hexx
     require_relative "hexx-services/translation_dsl"
     require_relative "hexx-services/execution_dsl"
     require_relative "hexx-services/dependencies_dsl"
+    require_relative "hexx-services/base"
 
   end # module Services
 
