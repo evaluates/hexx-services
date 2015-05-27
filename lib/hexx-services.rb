@@ -13,6 +13,7 @@ module Hexx
   module Services
 
     require_relative "hexx-services/patches.rb"
+    require_relative "hexx-services/translation_dsl"
 
   end # module Services
 
